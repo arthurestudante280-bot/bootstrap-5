@@ -1,7 +1,7 @@
 # Projeto Prático: Bootstrap 5 - Landing Page
 
-**Autor:** Arthur de Oliveira  
-**Data:** 02/11/2026
+**Autor:** Arthur de Oliveira Santos 
+**Data:** 01/11/2026
 
 ## Descrição do Projeto
 Este projeto consiste em uma Landing Page responsiva para um produto fictício chamado "IncluVision", um projeto de óculos inteligentes focado em recursos de acessibilidade. A página foi desenvolvida como requisito prático de conclusão do curso de Bootstrap 5.
