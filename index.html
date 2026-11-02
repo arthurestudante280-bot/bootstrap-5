@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IncluVision - Óculos Inteligentes</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar (Componente 1) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">IncluVision</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#recursos">Recursos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#especificacoes">Especificações</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção Principal (Hero com Grid) -->
+    <header class="container mt-5">
+        <div class="row align-items-center">
+            <div class="col-md-6 mb-4">
+                <h1 class="display-4 fw-bold text-primary">Acessibilidade ao seu alcance.</h1>
+                <p class="lead text-muted">Conheça o IncluVision, os óculos inteligentes projetados para transformar o mundo ao seu redor com recursos avançados de acessibilidade visual.</p>
+                <a href="#contato" class="btn btn-primary btn-lg mt-3">Garanta o seu na Pré-venda</a>
+            </div>
+            <div class="col-md-6 text-center">
+                <!-- ATENÇÃO: Substitua "oculos.jpg" pelo nome da imagem que você colocar na pasta -->
+                <img src="oculosproduto (1).png" alt="Protótipo do IncluVision" class="img-fluid rounded shadow" style="max-height: 400px;">
+            </div>
+        </div>
+    </header>
+
+    <!-- Seção de Recursos (Cards - Componente 2) -->
+    <section id="recursos" class="bg-light py-5 mt-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Recursos Inovadores</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-primary">Leitura em Tempo Real</h5>
+                            <p class="card-text">O sistema escaneia textos do ambiente e os converte em áudio instantaneamente, facilitando a leitura de livros e placas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-primary">Reconhecimento de Objetos</h5>
+                            <p class="card-text">Sensores inteligentes identificam obstáculos e objetos próximos, emitindo alertas sonoros para uma navegação segura.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-primary">Design Inclusivo</h5>
+                            <p class="card-text">Leve, discreto e confortável. O IncluVision possui uma estética moderna com o símbolo universal da acessibilidade integrado.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Especificações (Tabela) -->
+    <section id="especificacoes" class="container py-5">
+        <h2 class="text-center mb-4">Especificações Técnicas</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <table class="table table-striped table-hover border">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Componente</th>
+                            <th>Detalhe</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Câmera</td>
+                            <td>Sensor de alta resolução (4K) para leitura e reconhecimento</td>
+                        </tr>
+                        <tr>
+                            <td>Bateria</td>
+                            <td>Duração de até 12 horas de uso contínuo</td>
+                        </tr>
+                        <tr>
+                            <td>Conectividade</td>
+                            <td>Bluetooth 5.2 e Wi-Fi</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato (Formulário - Componente 3) -->
+    <section id="contato" class="container py-5 mb-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h2 class="text-center mb-4">Tenha acesso antecipado</h2>
+                <form class="p-4 border rounded shadow-sm bg-white">
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome Completo</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="email" placeholder="seu@email.com" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensagem" class="form-label">Mensagem (Opcional)</label>
+                        <textarea class="form-control" id="mensagem" rows="3"></textarea>
+                    </div>
+                    <!-- Botão (Componente 4) -->
+                    <button type="submit" class="btn btn-success w-100">Enviar Interesse</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">&copy; 2026 IncluVision. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
